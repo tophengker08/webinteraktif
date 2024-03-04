@@ -3,6 +3,7 @@ from page1 import page_1
 from page2 import page_2
 from page3 import page_3
 from kalkulatorsegitiga import kalkulatorsegitiga
+from testimoni import testimoni
 
 # import pandas as pd
 
@@ -21,7 +22,8 @@ PAGES = {
     "Home" : page_1,
     "Tontonan" : page_2,
     "Contoh" : page_3,
-    "Kalkulatorsegitiga" : kalkulatorsegitiga
+    "Kalkulatorsegitiga" : kalkulatorsegitiga,
+    "Testimoni" : testimoni
     }
     
 st.sidebar.image("cryptologo.jpg", width=200)
