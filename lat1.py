@@ -18,7 +18,7 @@ from kalkulatorsegitiga import kalkulatorsegitiga
 
 
 PAGES = {
-    "Page 1" : page_1,
+    "home" : page_1,
     "Page 2" : page_2,
     "Page 3" : page_3,
     "kalkulatorsegitiga" : kalkulatorsegitiga
