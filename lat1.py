@@ -18,10 +18,10 @@ from kalkulatorsegitiga import kalkulatorsegitiga
 
 
 PAGES = {
-    "home" : page_1,
-    "Page 2" : page_2,
-    "Page 3" : page_3,
-    "kalkulatorsegitiga" : kalkulatorsegitiga
+    "Home" : page_1,
+    "Tontonan" : page_2,
+    "Contoh" : page_3,
+    "Kalkulatorsegitiga" : kalkulatorsegitiga
     }
     
 st.sidebar.image("cryptologo.jpg", width=200)
