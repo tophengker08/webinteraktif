@@ -26,7 +26,7 @@ PAGES = {
     "Testimoni" : testimoni
     }
     
-st.sidebar.image("cryptologo.jpg", width=200)
+st.sidebar.image("foto image.jpg", width=300)
 page = st.sidebar.radio("Halaman", list(PAGES.keys()))
 PAGES[page]()
 
