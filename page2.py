@@ -6,3 +6,4 @@ def page_2():
     st.title("CARA SUKSES DI UMUR 18")
     st.write('MAU JADI SUKSES? TONTO VIDEO INI!!')
     st.video('https://youtu.be/bTZzgXxRhFo?si=1ODgBNHiSmP1ty-9')
+    
