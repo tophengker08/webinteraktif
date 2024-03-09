@@ -31,4 +31,24 @@ PAGES = {
 st.sidebar.image("foto image.jpg", width=300)
 page = st.sidebar.radio("Halaman", list(PAGES.keys()))
 PAGES[page]()
+ 
+ 
+st.markdown(
+    """
 
+        <style>
+        [data-testid ="stAction ButtonIcon"]{
+            display: none;
+        }
+        [data-testid ="baseButton-header"]{
+            display: none;
+        
+        }
+        
+        #MainMenu {visibility:hidden;}
+        footer {visibillity:hidden:}
+        
+        </style>
+        """, 
+        unsafe_allow_html=True,
+)
