@@ -20,7 +20,7 @@ from image1 import main
 
 
 PAGES = {
-    "Beranda" : page_1,
+    "HOME" : page_1,
     "Tontonan" : page_2,
     "Contoh" : page_3,
     "Kalkulatorsegitiga" : kalkulatorsegitiga,
